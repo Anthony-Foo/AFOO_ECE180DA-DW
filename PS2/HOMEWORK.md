@@ -10,8 +10,8 @@ This builds directly on the lab. If you have not finished `WORKBOOK.md`, do that
 
 Graded for **completion**, not correctness of style. Two things:
 
-1. **Push your work to a GitHub repo** (private is fine — add the course staff as collaborators) and submit the repo URL.
-2. **Run `make all` and screenshot the output.** Upload the screenshot to Gradescope separately.
+1. **Push your work to a GitHub repo** and include the repo URL.
+2. **Run `make all` and screenshot the output.** Upload the screenshot to Gradescope along with the link to the repo.
 
 What we want to see in the screenshot:
 
@@ -46,6 +46,8 @@ tb/                      testbenches — do not edit
 ```
 
 Same lint rules as the lab: `LATCH`, `WIDTH`, `CASEINCOMPLETE`, `BLKSEQ` and `COMBDLY` are **errors**. If the build stops on one of these, it is telling you about hardware you did not mean to build.
+
+NOTE: If you still have issues with Verilator, use https://www.edaplayground.com/ (make sure to include both the code and testbench on the online editor). 
 
 ### Rough effort
 
